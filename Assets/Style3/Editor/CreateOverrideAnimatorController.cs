@@ -2,15 +2,16 @@
 using System.Collections;
 using UnityEditor;
 
-public class CreateOverwrideAnimatorController : EditorWindow  {
+public class CreateOverrideAnimatorController : EditorWindow  {
 
-    [MenuItem("GameObject/AddOverwrideAnimatorController")]
+    [MenuItem("GameObject/AddOverrideAnimationController")]
     static void Export()
     {
-        var window = CreateOverwrideAnimatorController.GetWindow<CreateOverwrideAnimatorController>();
+        var window = CreateOverrideAnimatorController.GetWindow<CreateOverrideAnimatorController>();
         window.Show();
     }
 
+    [SerializeField]
     private RuntimeAnimatorController  animationController = null;
 
     void OnGUI()

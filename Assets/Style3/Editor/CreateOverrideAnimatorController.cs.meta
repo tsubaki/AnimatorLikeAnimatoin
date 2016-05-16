@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 43e239c48d623eb439f9a92b4a43460f
-timeCreated: 1463229760
+timeCreated: 1463330452
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - animationController: {fileID: 9100000, guid: 636852f6af702264a9c188e6ea484b22,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
