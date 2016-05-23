@@ -13,7 +13,7 @@ namespace AnimatorLikeAnimation.Style4
 
 		AnimatorOverrideController overrideController;
 
-		void Start ()
+		void Awake ()
 		{
 			overrideController = new AnimatorOverrideController ();
 			overrideController.runtimeAnimatorController = controller;

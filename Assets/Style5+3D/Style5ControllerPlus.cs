@@ -9,7 +9,7 @@ namespace AnimatorLikeAnimation.Style5
 		[SerializeField] Style5Animation target;
 		[SerializeField] AnimationClip[] animations;
 
-		void Start ()
+		void Awake ()
 		{
 			target.Setup (animations);
 		}
