@@ -4,8 +4,7 @@ In my cases, Style2 and Style5 looks good.
 
 [日本語向けの記事はこちら](http://tsubakit1.hateblo.jp/entry/2016/05/16/073000)
 
-if you want to style 1 ~ 3,  you can learning how to use animator. it is better for you.
-In particular, I will recommend to learn how to use the sub-state to you. This will avoid the spaghetti.
+if you want to style 1 ~ 3,  you can learning how to use animator. In particular, I will recommend to learn how to use the sub-state to you. This will avoid the spaghetti.
 
 -  [substatemachiene tutorial](https://www.youtube.com/watch?v=lpekqN4_4xg)
 -  [Animation Blending with Mecanim](https://warzonegameblog.wordpress.com/2015/12/22/animation-blending-with-mecanim/)
