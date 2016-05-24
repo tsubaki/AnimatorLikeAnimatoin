@@ -4,6 +4,8 @@ In my cases, Style2 and Style5 looks good.
 
 [日本語向けの記事はこちら](http://tsubakit1.hateblo.jp/entry/2016/05/16/073000)
 
+if you want to style 1 ~ 3,  you can learning how to use animator. in this. it is better for you.
+
 ##Style 1
 
 style 1 is normal aniamtor style.
@@ -24,6 +26,8 @@ Style 2 is using overrideanimationcontroller style.
 
 This style use a animation contorller and some overrideanimationcontroller. it is useful for mass production characters.
 but Not suitable for customization of each character.
+
+At first, you create a template animation controller. it can idle, run. and you can override animation clip for each characters. perhaps you can set automatically by naming rule. if you write editor extensions.
 
 ![style2](img/style2_2.jpg)
 
@@ -107,7 +111,9 @@ You can Use the Animator.Play and Animator.Fade instead of clip switching.
 ![style5 has animation clips](img/style5_1.jpg)
 
 This style fixed style 4's issues. so, it can use blend and it can change animation with low cost. 
-but control are complex, and you should prepare many many animators.
+but control are complex.
+If you want to go this approach, you should prepare AnimatorControllers same number with maximum clip count (need automatic!).
 
 ![stlye5 many animation clips](img/Style5_2.png)
 
+The problem is that you can not adjust the curve of the blend. If it is necessary, use the Style2 or Style1.
