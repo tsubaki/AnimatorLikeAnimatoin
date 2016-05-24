@@ -2,7 +2,7 @@
 
 In my cases, Style2 and Style5 looks good.
 
-[article for japanese](http://tsubakit1.hateblo.jp/entry/2016/05/16/073000)
+[日本語向けの記事はこちら](http://tsubakit1.hateblo.jp/entry/2016/05/16/073000)
 
 ##Style 1
 
