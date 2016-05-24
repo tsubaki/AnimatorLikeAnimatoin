@@ -102,7 +102,7 @@ Style 5 is advanced type of style 4.
 This style, uses the Style 3 and Style4. so get the AnimationController with the required count AnimationClips, then override the AnimationClip.
 
 Style 5, like the Style4, controlled by the script. State machine does not use. 
-Use the Animator.Play and Animator.Fade instead of clip switching.
+You can Use the Animator.Play and Animator.Fade instead of clip switching. 
 
 ![style5 has animation clips](img/style5_1.jpg)
 
