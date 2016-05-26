@@ -71,15 +71,6 @@ if you put a prefab to project view, Animation Override controller will be None.
 
 ![style3 issue](img/style3_4.jpg)
 
-If you want to create a prefab, you should create override controller to (project view’s) prefab.
-
-1.  chose prefab (has animator)
-2.  GameObject > AddOverride Animation Controller
-3.  click Create button
-4.  setting animator
-
-![style3 issue fix](img/style3_5.jpg)
-
 note:does not work 5.3 
 
 ##Style 4
