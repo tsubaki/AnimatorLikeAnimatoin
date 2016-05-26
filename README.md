@@ -1,5 +1,12 @@
 # AnimatorLikeAnimatoin
 
+##What's this
+
+Animator has produced a lot of pain.
+In this repository, groping  way for reduce pain.
+
+---
+
 In my cases, Style2 and Style5 looks good.
 
 [日本語向けの記事はこちら](http://tsubakit1.hateblo.jp/entry/2016/05/16/073000)
