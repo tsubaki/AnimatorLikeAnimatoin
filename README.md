@@ -80,6 +80,8 @@ If you want to create a prefab, you should create override controller to (projec
 
 ![style3 issue fix](img/style3_5.jpg)
 
+note:does not work 5.3 
+
 ##Style 4
 
 Style 4 does not use the Animator state management.
