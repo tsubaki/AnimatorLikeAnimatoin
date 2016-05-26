@@ -5,7 +5,7 @@ namespace AnimatorLikeAnimation.Style4
 {
 	public class Style4Animation : MonoBehaviour
 	{
-		[HideInInspector, SerializeField]
+		[SerializeField]
 		RuntimeAnimatorController controller;
 
 		[SerializeField]
