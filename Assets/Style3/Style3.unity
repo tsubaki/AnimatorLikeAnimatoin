@@ -168,7 +168,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.29999998, y: 0, z: 0}
   m_Children:
   - {fileID: 629645064}
   m_Father: {fileID: 0}
@@ -188,7 +188,7 @@ Animator:
   m_GameObject: {fileID: 1343588706}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 1550841037}
+  m_Controller: {fileID: 1425264215}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -204,7 +204,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1343588706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.24, y: 0.02, z: 0}
+  m_LocalPosition: {x: 2.24, y: 0, z: 0}
   m_LocalScale: {x: 4.0027394, y: 4.0027394, z: 4.0027394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -460,14 +460,6 @@ Transform:
   - {fileID: 385288350}
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!221 &935937250
-AnimatorOverrideController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_Controller: {fileID: 9100000, guid: 636852f6af702264a9c188e6ea484b22, type: 2}
-  m_Clips: []
 --- !u!95 &966493322
 Animator:
   serializedVersion: 3
@@ -478,7 +470,7 @@ Animator:
   m_GameObject: {fileID: 610325330}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 935937250}
+  m_Controller: {fileID: 1176213968}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -494,20 +486,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 610325330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06, y: 0.02, z: 0}
+  m_LocalPosition: {x: 0.06, y: 0, z: 0}
   m_LocalScale: {x: 4.0027394, y: 4.0027394, z: 4.0027394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 708962336}
   m_RootOrder: 0
---- !u!221 &1032066560
-AnimatorOverrideController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_Controller: {fileID: 9100000, guid: 636852f6af702264a9c188e6ea484b22, type: 2}
-  m_Clips: []
 --- !u!95 &1067233468
 Animator:
   serializedVersion: 3
@@ -518,7 +502,7 @@ Animator:
   m_GameObject: {fileID: 1086768538}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 1032066560}
+  m_Controller: {fileID: 2030556320}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -657,6 +641,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1150459023}
+--- !u!221 &1176213968
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Controller: {fileID: 9100000, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7497270, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f2295998566fa40b7898b82620b17e9d, type: 2}
+  - m_OriginalClip: {fileID: 7452606, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 778ad56de9b3f46f8bee1ce5de5c858a, type: 2}
 --- !u!1 &1343588706
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,6 +702,18 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!221 &1425264215
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Controller: {fileID: 9100000, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7497270, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 819c7704c40374ef285876590ee23c3b, type: 2}
+  - m_OriginalClip: {fileID: 7452606, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7b6a9e13995004d1d935d3709d772ad6, type: 2}
 --- !u!1 &1453250880
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,14 +783,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1453250880}
---- !u!221 &1550841037
-AnimatorOverrideController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_Controller: {fileID: 9100000, guid: 636852f6af702264a9c188e6ea484b22, type: 2}
-  m_Clips: []
 --- !u!1 &1639352767
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,10 +937,22 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1681758035}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.0026179885, y: 0, z: 0, w: 0.9999966}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.3, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!221 &2030556320
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Controller: {fileID: 9100000, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7497270, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c08f396b525a14feb96285db686bd302, type: 2}
+  - m_OriginalClip: {fileID: 7452606, guid: 5c8a7438dd3a143c8952e7614b20e9a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 848c31dea71e44e47835db9cc32dd09e, type: 2}
