@@ -6,11 +6,9 @@ AnimatorOverrideController:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Character1
-  m_Controller: {fileID: 9100000, guid: 81428c9f95e21a54e8e91ca44dd16cf0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 317883764f0a048e386ea0c2cb67d120, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 74000013091866244, guid: 81428c9f95e21a54e8e91ca44dd16cf0,
-      type: 2}
+  - m_OriginalClip: {fileID: 7497270, guid: 317883764f0a048e386ea0c2cb67d120, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: f2295998566fa40b7898b82620b17e9d, type: 2}
-  - m_OriginalClip: {fileID: 74000012119690092, guid: 81428c9f95e21a54e8e91ca44dd16cf0,
-      type: 2}
+  - m_OriginalClip: {fileID: 7452606, guid: 317883764f0a048e386ea0c2cb67d120, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 778ad56de9b3f46f8bee1ce5de5c858a, type: 2}
