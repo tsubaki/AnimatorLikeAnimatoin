@@ -1,8 +1,7 @@
 # AnimatorLikeAnimatoin
 
-##What's this
-
 Animator has produced a lot of pain.
+
 In this repository, groping  way for reduce pain.
 
 ---
