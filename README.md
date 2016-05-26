@@ -62,6 +62,9 @@ This style create a animation override controller in scene.
 
 If using a single animation in stage (of scene), the method may be effective.
 
+might, AnimationOverrideController does not save in scene if you change just only AnimationOverrideController settings.
+move other object and save.
+
 ![style3 override controller](img/style3_2.jpg)
 
 ![style3 setting override controller](img/style3_3.jpg)
@@ -70,8 +73,6 @@ The problem is that you can not write the AnimationOverrideController that was c
 if you put a prefab to project view, Animation Override controller will be None.
 
 ![style3 issue](img/style3_4.jpg)
-
-note:does not work 5.3 
 
 ##Style 4
 
