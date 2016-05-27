@@ -2,10 +2,10 @@
 
 Animator (mecanim) are good system for animation. powerful retargeting, statemachien, and IK, support sprite animation.
 
-but, almost developer does not use it. it is complex, to dirty project, and request a lot of GUI operation.
+but, unfortunately, almost developer can’t use it. it is complex, make dirty project, and request a lot of GUI operation. it make the pain.
 some project will match animator, but some project does not match. if you have unmatch projects, animator make a lot of pains.
 
-I'm looking for ways to reduce the pain in this repository.
+I'm looking for ways to make the pain easier.
 
 ---
 
