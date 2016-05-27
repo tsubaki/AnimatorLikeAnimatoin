@@ -1,7 +1,11 @@
 # AnimatorLikeAnimatoin
 
-Animator has produced a lot of pain.  
-In this repository, groping  way for reduce pain.
+Animator (mecanim) are good system for animation. powerful retargeting, statemachien, and IK, support sprite animation.
+
+but, almost developer does not use it. it is complex, to dirty project, and request a lot of GUI operation.
+some project will match animator, but some project does not match. if you have unmatch projects, animator make a lot of pains.
+
+I'm looking for ways to reduce the pain in this repository.
 
 ---
 
