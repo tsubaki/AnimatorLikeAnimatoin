@@ -58,6 +58,13 @@ game by game.
 
 ![style2+ blendtree](img/style2++1.gif)
 
+This style has a issue because poor of editor function.
+The animator editor of BlendTree does not has copy & paste & replace function, search, move behaviour.
+And blendTree does not controls other than float.
+
+If you want to rework the animation of complex structures, you get a big pain.
+But still it might be easier than the state machine.
+
 ##Style 3
 
 Style 3 is using animation override controller but does not use asset.  
