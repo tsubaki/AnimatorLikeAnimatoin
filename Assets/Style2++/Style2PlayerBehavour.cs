@@ -11,13 +11,13 @@ public class Style2PlayerBehavour : StateMachineBehaviour
 	static int distanceFromGround = Animator.StringToHash ("distance from ground");
 	static int landingTimeHash = Animator.StringToHash ("landing time");
 
-	public float landingTime = 0;
+	public float landingTime { get; set; }
 
 	override public void OnStateUpdate (Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 	{
 		var transform = animator.transform;
 		var rigidbody2d = animator.GetComponent<Rigidbody2D> ();
-		var hit = Physics2D.Raycast (transform.position, transform.up * -1, 5, mask);
+        var hit =  Physics2D.CircleCast(transform.position, 0.15f, transform.up * -1, 5, mask);
 
 		if (hit.distance > 0.6f) {
 			landingTime = 1f;

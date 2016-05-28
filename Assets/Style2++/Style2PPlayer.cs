@@ -5,7 +5,6 @@ public class Style2PPlayer : MonoBehaviour
 {
 	void Update ()
 	{
-	
 		Vector2 velocity = GetComponent<Rigidbody2D> ().velocity;
 		if (Input.GetKeyDown (KeyCode.Space)) {
 			velocity.y = 5;
