@@ -34,6 +34,8 @@ but, if you want if to create a unique character control, it might be a good.
 
 Style 2 is using overrideanimationcontroller style.
 
+This style, to create a AnimationController underlying using a dummy of AnimationClip, and set the AnimatinoClip for each character.
+
 ![style2](img/style2_1.jpg)
 
 This style use a animation contorller and some overrideanimationcontroller. it is useful for mass production characters.
