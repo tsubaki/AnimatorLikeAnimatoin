@@ -56,7 +56,7 @@ Style 2+ is using blend tree.
 Control by the blend tree, might be useful than state machine. perhaps. maybe...
 game by game.
 
-![style2+ blendtree](img/Style2+_1.jpg)
+![style2+ blendtree](img/style2++1.gif)
 
 ##Style 3
 
