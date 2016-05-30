@@ -12,8 +12,6 @@ This repositry looking for way to make the pain easier.
 
 ---
 
-In my cases, Style2 and Style5 looks good.
-
 [日本語向けの記事はこちら](http://tsubakit1.hateblo.jp/entry/2016/05/16/073000)
 
 if you want to use style 1 ~ 3,  you can learning how to use animator. In particular, I will recommend to learn how to use the sub-state to you. This will avoid the spaghetti.
