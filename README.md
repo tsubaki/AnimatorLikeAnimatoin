@@ -2,10 +2,13 @@
 
 Animator (mecanim) are good system for animation. powerful retargeting, statemachien, and IK, support sprite animation.
 
-but, unfortunately, almost developer can’t use it. it is complex, make dirty project, and request a lot of GUI operation. it make the pain.
-some project will match animator, but some project does not match. if you have unmatch projects, animator make a lot of pains.
+But, unfortunately, some project does not match it.
+ For example... If Animator has cancel animation, has many characters, has very complex state machine, if you want to add animationcip in dynamic, and if you want to control animation by script.
+Some project will match animator, but some project does not match. if you have unmatch projects, Animator makes pain.
 
-I'm looking for ways to make the pain easier.
+In unmatch project,  If you can use legacy animation system, it might happy. but the legacy animation system un support 2d sprite and material animation. if you want to 2d animation, you should use animator.
+
+This repositry looking for way to make the pain easier.
 
 ---
 
