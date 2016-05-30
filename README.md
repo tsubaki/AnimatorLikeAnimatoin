@@ -3,7 +3,7 @@
 Animator (mecanim) are good system for animation. powerful retargeting, statemachien, and IK, support sprite animation.
 
 But, unfortunately, some project does not match it.
- For example... If Animator has cancel animation, has many characters, has very complex state machine, if you want to add animationcip in dynamic, and if you want to control animation by script.
+ For example... If Animator has cancel animation, has many characters, has many animation clip ( want to play animation clip without complex gui setup), has very complex state machine, if you want to add animationcip in dynamic, and if you want to control animation by script.
 Some project will match animator, but some project does not match. if you have unmatch projects, Animator makes pain.
 
 In unmatch project,  If you can use legacy animation system, it might happy. but the legacy animation system un support 2d sprite and material animation. if you want to 2d animation, you should use animator.
